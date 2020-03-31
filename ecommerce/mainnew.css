@@ -1,0 +1,518 @@
+body{
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+}
+#move
+{
+    background-color: black;
+    color: white;
+}
+.topnav
+{
+    overflow: hidden;
+  background-color: black;
+  opacity: 0.6;
+}
+.topnav a{
+    float: left; 
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 14px ;
+    padding-left: 90px; 
+    padding-right: 90px; 
+    font-size: 18px;
+   }
+.topnav a:hover
+{
+    background-color:white;
+    color: black;
+}
+
+
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+  }
+
+
+  h3{
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+  }
+
+
+  .card
+  {
+      position: relative;
+      text-align: center;
+      padding-left: 20px;
+ }
+
+
+  .text-block {
+    position: absolute;
+    top:50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    }
+
+
+  h4{
+      color:white;
+      font-weight: bold;
+  }
+
+
+  p{
+      color: white;
+  }
+
+  h5
+  {
+      color: rgba(233, 18, 168, 0.918);
+      text-decoration-line: underline;
+      font-style: italic;
+      text-align: center;
+      
+  }
+  .text-block1 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    background-color:black;
+    color:white;
+  }
+
+
+  .text-block2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    background-color:white;
+    color:black;
+    opacity: 0.7;
+    text-align: center;
+    font-size: x-large;
+  }
+  #line
+  {
+      display: flex;
+  }
+
+  h5
+  {
+      color: black;
+  }
+  .card .btn 
+  {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ 
+.button1
+{
+  background-color: black;
+  color: black;
+  
+}
+
+.form1
+{
+    
+    background-color: black;
+    opacity: 0.3;
+    text-align: center;
+    padding: 40px 22px;
+    text-size-adjust: 26px;
+    margin-bottom: 40px;
+}
+.fcontrol
+{
+    size: 120px;
+}
+ 
+.form1 p
+{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.form1 .btn
+{
+    width: 90px;
+    color: cornsilk;
+    background-color: crimson;
+}
+.form1 .btn:hover
+{
+    background-color: gold;
+    color:black;
+}
+.foot
+{
+    background-color: gold;
+    color: black;
+    padding: 40px;
+}
+.text
+{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#info p
+{
+    text-align: justify;
+    color: black;
+
+}
+.card-img-top
+{
+    width: 100%;
+    height: 15vw;
+  object-fit: contain;
+}
+
+.card img
+{
+    transition: transform.5s ease;
+}
+.card:hover img
+{
+    transform: scale(0.9);
+    cursor: -webkit-grab;
+}
+
+
+.card-img-top1
+{
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+}
+.country
+{
+    
+    padding-top: 10px;
+    padding-bottom: 4px;
+    background-color: black;
+    /* text-align: left; */
+}
+
+.btn2
+{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    /* margin-left: 10%;
+    margin-right: 60%; */
+    
+}
+
+.btn2 .dropdown-content a:hover
+{
+    color: black;
+}
+
+.country a
+{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
+
+ .country a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+
+.btn4
+{
+    background-color: transparent;
+    color: white;
+    border-color: transparent;  
+    padding: none;
+}
+.btn5
+{
+    background-color: transparent;
+    color: black;
+    border-color: transparent; 
+    margin-left: 46.5%;
+    
+}
+
+.btn6
+{
+    background-color: transparent;
+    color: black;
+    border-color: transparent; 
+    margin-left: 26%;
+}
+
+.social
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.btn7
+{
+    background-color: transparent;
+    margin: 20px;
+    border: none;
+}
+.btn7:hover
+{
+    transition: transform.5s ease;
+    transform: scale(1.5);
+    cursor: grabbing;
+}
+.btn8
+{
+    background-color: transparent;
+    margin: 20px;
+    border: none;
+}
+.btn8:hover
+{
+ transition: transform.5s ease;
+ transform: scale(1.5);
+ cursor: grabbing;
+}
+.btn9
+{
+    background-color: transparent;
+    margin: 20px;
+    border: none;
+}
+.btn9:hover
+{
+ transition: transform.5s ease;
+ transform: scale(1.5);
+ cursor: grabbing;
+}
+
+
+
+
+.dropbtn {
+    background-color:transparent;
+    color: black;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown 
+  {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.726);
+    z-index: 1;
+  }
+ 
+                                                                        .dropdown-content a 
+                                                                        {
+                                                                            color: white;
+                                                                            padding: 12px;
+                                                                            text-decoration: none;
+                                                                            display: block;
+                                                                            font-size: 11px;
+                                                                            text-align: left;
+                                                                        }
+  .dropdown-content a:hover 
+  {
+      background-color: #f1f1f1;  
+      color: black;  
+  } 
+                                                                        .dropdown:hover .dropdown-content
+                                                                        {
+                                                                            display: block;
+                                                                        }
+  .dropdown:hover .dropbtn 
+  {
+    background-color: black;
+    color: white;
+  }  
+  .respmenu
+  {
+      background-color: white;
+      /* opacity: 0.6; */
+      text-align: center;
+  }
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /* background-color: silver; */
+    /* height: 300px; Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.buynowimg
+{
+    padding-left: 30%; 
+    margin-left: 20%;
+}
+.btnbuy
+{
+    width: 30%;
+    background-color: black;
+    color: white;
+    text-decoration: rgba(233, 18, 168, 0.918);
+    text-align: center;
+    font-size: x-large;
+}
+.btnbuy:hover
+{
+    background-color: yellow;
+    color: black;
+}
+.coloumn.p
+{
+    border-bottom: black;
+    border-style: solid;
+    border-width: 20%;
+}
+
+.carousel-container
+{
+    width: 60%;
+    margin: auto;
+    border : 5px solid black;
+}
+.carousel-slide
+{
+    display:flex;
+    width: 100%;
+    height: 500px;
+}
+ul.breadcrumb
+{
+    background-color: transparent;
+}
+.breadcrumb a
+{
+    background-color: transparent;
+    color: black;
+}
+
+.form
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    height:auto;
+    background: linear-gradient(to top, #6666ff 0%, #00ff99 100%);
+    opacity: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.726);
+
+}
+.form-group
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.create1
+{
+    margin-left: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: black;
+}
+.create
+{
+    width: 10%;
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: white;
+}
+
+.create1:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.create:hover
+{
+    background-color: black;
+    color: white;
+}
+.bucketbutton1
+{
+    background-color: black;
+    border:none;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width:20%;
+}
+
+.bucketbutton1:hover
+{
+    transition:transform.5s ease;
+    transform: scale(0.9);
+}
+.shippingform1
+{
+    margin-left: 5%;
+    margin-right: 60%;
+}
+.shippingform2
+{
+
+    margin-left: 65%;
+    margin-right: 10%;
+
+}
+
+#801
+{
+    width: 100%;
+    columns: 2;
+}
+#036
+{
+    padding-right: 20%;
+}
+
+
